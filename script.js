@@ -1,14 +1,38 @@
-let ababa = 27;
-console.log(ababa - 8)
+//you fuckbob you're like joe biden eating ass
+const badWords = ['fuck','shit','bitch','ass','dick','cunt'];
+const secondaryBadWords = ['hole','head','suck','bozo','fart','bag'];
+const persons = ['joe biden','liver king','donald trump','joey diaz'];
+const actions = ['eating ass','licking balls','sniffing coke']
 
-const thisfunctionthing = (x) => {
-    let nice = x + ' you are trash';
-    console.log('random')
-    return nice;
+const pickRandom = (array) => {
+    let randomNumberForArrayLength = Math.floor(Math.random()*(array.length));
+    return array[randomNumberForArrayLength]
 }
 
-console.log(
-    thisfunctionthing('obama')
-)
+let statement1 = `you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`;
+let statement2 = `you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`;
 
-console.log('test');
+console.log(statement1);
+console.log(statement2);
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+console.log(`you ${pickRandom(badWords)} ${pickRandom(secondaryBadWords)}`)
+console.log(`you're worse than ${pickRandom(persons)} ${pickRandom(actions)}`)
+
+
+// let test = badwords[1];
+// console.log(`yes there is a problem ${test}`);
