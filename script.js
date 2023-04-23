@@ -1,6 +1,6 @@
 //you fuckbob you're like joe biden eating ass
 const badWords = ['fuck','shit','bitch','ass','dick','cunt'];
-const secondaryBadWords = ['hole','head','suck','bozo','fart','bag'];
+const secondaryBadWords = ['hole','head','bob','bozo','fart','bag'];
 const persons = ['joe biden','liver king','donald trump','joey diaz'];
 const actions = ['eating ass','licking balls','sniffing coke']
 
